@@ -25,6 +25,7 @@ class Db
         if(false!==$res){
             return $sth->fetchAll(\PDO::FETCH_CLASS, $class);
         }
+        
         return [];
     }
 }

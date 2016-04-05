@@ -7,5 +7,6 @@
 require __DIR__.'/autoload.php';
 
 $users=\App\Models\User::findAll();
+
 //$res=$db->execute('CREATE TABLE foo (id SERIAL)');
 echo '<pre>'.print_r($users,1).'</pre>';
